@@ -1,0 +1,64 @@
+.ContainerRegisterView{
+    margin: 53px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContainerRegisterImage{
+    display: flex;
+    width: 13%;
+}
+.StyleRegisterTitle{
+    margin: -20px 20px -0px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.3px black;
+}
+.StyleRegisterText{
+    margin: 20px 0px 5px 0px;  
+}
+.StyleRegisterInput{
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #E36A00;
+}
+.StyleRegisterInputPassword{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #E36A00;
+}
+.StyleRegisterButtonPassword{
+    margin: 0px 0px 5px 5px;  
+    background-color: #FF9B40;
+    height: 38px;
+    width: 65px;
+    border-radius: 10px;
+    border-color: #E36A00;
+    color: white;
+}
+
+.StyleRegisterErrorMesage{
+    text-align: center;
+    color: red;
+}
+.StyleRegisterButton{
+    margin: 8px 0px 5px 0px;  
+    height: 38px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #FF9B40;
+    border-color: #FF9B40;
+    color: white;
+    font-size: 17px;
+    border: transparent;
+}
+.StyleLogin{
+    text-align: center;
+    color: black; 
+}

@@ -1,0 +1,60 @@
+.styleUl {
+    list-style-type: none;
+    margin: -10px -8px 0px -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF9B40;
+    height: 60px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .styleLink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+  }
+
+  .styleLinkBack {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 0px 0px 10px;
+    float: right;
+     }
+  
+  .active {
+    padding: 18px 17px 14px 17px;
+    background-color: #F8AB65;
+    height: 60px;
+    width: 80px;
+    border: transparent;
+    color:white;
+    font-size: 23px;
+    text-decoration: none;
+
+  }
+
+  .active:hover {
+    background-color: white; /* Green */
+    color: #F8AB65;
+ 
+  }
+
+  .styleHeaderTitle{
+    margin: 10px 0px 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.3px black;
+  }
+
+  .styleTextButtonBack{
+    color: gray;
+    text-decoration: none;
+
+  }
