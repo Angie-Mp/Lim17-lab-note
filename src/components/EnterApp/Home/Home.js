@@ -1,36 +1,12 @@
-import { React,useState } from "react";
 import Header from "../Header/Header.js";
+import Create from "./Crud/Create/Create.js"
 
-import "./Style.css"
-
-const Home =() => {
- 
+function Home() {
   return (
-    <div>
+    <div >
       <Header/>
-
-      <div className="menu">
-        <ul className="box">
-          <p>hola</p>
-        </ul>
-      </div>
-
-      <div>
-        <p>hola dos</p>
-      </div>
-    </div>
-  );
+      <Create/>    
+  </div>  
+  )
 }
 export default Home;
-
-/*
-<div className="menu">
-        <ul>
-          <p>hola</p>
-        </ul>
-      </div>
-
-      <div>
-        <p>hola dos</p>
-      </div>
-*/
