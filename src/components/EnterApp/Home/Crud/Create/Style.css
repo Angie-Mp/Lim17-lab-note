@@ -1,0 +1,64 @@
+.containerStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containerFormStyle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 195px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding-right: 30px;  
+}
+
+.inputTitleStyle{
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #E36A00;
+}
+.contentsStyle{
+    height: 130px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border:groove 2px #E36A00;
+}
+
+.buttonSaveStyle{
+    margin: 0px 0px 5px 5px;  
+    background-color: #FF9B40;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: #E36A00;
+    color: white;
+    font-size: 15px;
+}
+.buttonSaveStyle:hover{
+    background-color: #F2BB6B;
+    color: #E36A00;
+    border-color: #E36A00;
+}
+
+.imgStyle{
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.v-line{
+    border-right: solid #E36A00;
+    height:80%;
+    left: 350px;
+    position: absolute;
+}
+
+.containerReadStyle{
+    margin: 30px 30px 30px 10px;
+    text-align: center;
+    border-radius: 40px;
+}

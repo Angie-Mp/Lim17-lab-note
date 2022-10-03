@@ -45,6 +45,11 @@ body{
     border-color: #E36A00;
     color: white;
 }
+.StyleButtonPassword:hover{
+    background-color: #F2BB6B;
+    color: #E36A00;
+    border-color: #E36A00;
+}
 .StyleErrorMesage{
     text-align: center;
     color: red;
@@ -55,10 +60,15 @@ body{
     width: 240px;
     border-radius: 10px;
     background-color: #FF9B40;
-    border-color: #FF9B40;
+    border-color: #E36A00;
     color: white;
     font-size: 17px;
-    border: transparent;
+    
+}
+.StyleButton:hover{
+    background-color: #F2BB6B;
+    color: #E36A00;
+    border-color: #E36A00;
 }
 .StyleRegister{
     text-align: center;

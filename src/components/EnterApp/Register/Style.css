@@ -1,5 +1,5 @@
 .ContainerRegisterView{
-    margin: 53px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,11 @@
     border-color: #FF9B40;
     color: white;
     font-size: 17px;
-    border: transparent;
+}
+.StyleRegisterButton:hover{
+    background-color: #F2BB6B;
+    color: #E36A00;
+    border-color: #E36A00;
 }
 .StyleLogin{
     text-align: center;

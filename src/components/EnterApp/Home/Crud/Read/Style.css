@@ -1,0 +1,12 @@
+
+.containerStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.containerNotes {
+    height: 410px;
+    width: 680px;
+    overflow-y: auto;
+    margin: 30px 50px 30px 60px;
+}
